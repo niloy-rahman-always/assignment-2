@@ -421,6 +421,9 @@ width: auto;
 .lover {
   flex-direction: column;
 }
+.trusted-img {
+  display: none;
+}
 
 .container {
   flex-direction: column;
