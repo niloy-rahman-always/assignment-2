@@ -45,6 +45,7 @@ body footer .last-footer {
 .navigation ul {
   display: flex;
   gap: 48px;
+  margin-right: 5px;
 }
 .navigation ul .pc {
  display: flex;
@@ -112,6 +113,8 @@ color: #000000;
   text-align: center;
 }
 
+
+
 .all-flower {
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -150,6 +153,26 @@ color: #000000;
   display: flex;
   gap: 50px;
 }
+.store-img {
+ position: relative;
+  display: inline-block;
+}
+.flower-lover {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.trusted-img {
+  position: absolute;
+  top: -150px; 
+  left: 350px; 
+  width: 50%;
+  height: auto;
+ 
+  
+}
+
+
 .lover-content {
   /* text-align: center; */
   /* width: 540px; */
