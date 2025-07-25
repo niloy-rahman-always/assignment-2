@@ -359,6 +359,8 @@ align-items: flex-start;
 }
 .footer-social-logo img{
 margin-right: 20px;
+height: 30px; 
+width: auto;
 
 }
 /* mobile responsive */
@@ -442,6 +444,16 @@ margin-right: 20px;
     text-align: center;
   }
 
-  
-
+  .last-footer  {
+    flex-direction: column;
+    
+      width: 92%;
+ margin: 0 auto;
+  }
+.footer-nav {
+  flex-direction: column;
+}
+.footer-social-logo {
+  margin-bottom: 20px;
+}
 }
