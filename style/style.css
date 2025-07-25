@@ -194,7 +194,7 @@ color: rgba(0, 0, 0, 0.5);
 
     .card {
       position: relative;
-      width: 400px;
+      width: 485px;
       height: 200px;
       border-radius: 16px;
       overflow: hidden;
@@ -311,5 +311,16 @@ color: rgba(0, 0, 0, 0.5);
   flex-direction: column;
 }
 
+.container {
+  flex-direction: column;
+}
+.right-card {
+ max-width: 100%;
+ height: 250px;
+}
+.card img {
+ max-width: 100%;
+ background-color: #E95A08;
+}
 
 }
